@@ -1,0 +1,120 @@
+ /* start css.sty */
+
+body { 
+  margin:0px;
+  padding:0px;
+  text-align: justify;
+  /*font-family: Myriad Pro, Helvetica, Arial, sans-serif;*/
+  /*font-size:15px;*/
+  background-color:#eeeeee;
+}
+
+
+#canvas { 
+  position:absolute;
+  width:770px;
+  margin-left:40px;
+  margin-top:20px;
+  background-color:#ffffff;
+  border:1px solid #b4b4b4;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+#menu {
+        position:fixed;
+        top:20px;
+        left:2px;
+}
+
+
+.button_style{
+  margin-left:40px; /*same margin-left as in canvas*/  
+}
+
+
+/*.armj_page_header li {
+    padding:0.1em 0.2em 0.1em 1em;}*/
+.armj_page_main { margin:0px; padding:0em 0em 0em 0em; /*width:630px;*/ }
+.armj_page_content {clear:both; line-height:1.6; }
+/*.armj_appendix,
+.armj_section,   
+.armj_subsection,
+.armj_subsubsection { margin-top:0.1em; }*/
+
+.armj_title_appendix,
+.armj_title_section       { font-family:sans-serif, Open, Liberation, Helvetica;
+font-size:130%; font-weight:500; margin-bottom:.1em; }
+.armj_title_subsection    { font-family:sans-serif, "Open", "Liberation", "Helvetica";font-size:120%; font-weight:500; display:inline; }
+.armj_title_subsubsection { font-family:sans-serif, "Liberation", "Helvetica"; font-size:100%; font-weight:500;  display:inline; }
+
+.armj_bibliography, .armj_acknowledgements { margin-top:1em;}
+.armj_abstract {padding-left:5%;padding-right:5%; text-align:justify;}
+.armj_title_abstract { font-family:sans-serif, Open, Liberation, Helvetica;
+ text-align:left; font-size: 130%; font-weight:500; display:inline; }
+
+.armj_keywords,
+.armj_title_bibliography,
+.armj_title_subclass {
+   text-align:left; font-size: 120%; font-weight:500; display:inline; }
+.armj_title_keywords,
+.armj_title_acknowledgements {
+  text-align:left; font-size: 100%; font-weight:500; display:inline;
+}
+.armj_dedication {text-align:right; font-size: 120%; padding-top:30px;
+padding-bottom:40px; padding-right:5%; font-style:italic;}
+
+.armj_yem {background-color:#FFFF87; padding:3pt; font-family:sans-serif,
+"Open", "Liberation", "Helvetica";}
+
+.upstrike {
+    position: relative;
+    display: inline-block;
+}
+.upstrike::before, .upstrike::after {
+    content: '';
+    width: 103%;
+    position: absolute;
+    top: 50%;
+}
+.upstrike::before {
+    border-bottom: .1px solid ;
+    -webkit-transform: skewY(-9deg);
+    transform: skewY(-9deg);
+}
+
+#container_fold_s{
+color:blue;
+width:15px;
+height:15px;
+-webkit-transform: translate(-15px,-10px) scale(1.4) rotate(90deg);     
+-ms-transform: translate(-15px,-10px) scale(1.4) rotate(90deg);    
+    transform: translate(-15px,-10px) scale(1.4) rotate(90deg);}
+#container_fold_ss{
+color:blue;
+width:15px;
+height:15px;
+-webkit-transform: translate(-10px,-15px) scale(1.2) rotate(90deg);     
+-ms-transform: translate(-10px,-15px) scale(1.2) rotate(90deg);    
+    transform: translate(-10px,-15px) scale(1.2) rotate(90deg);}
+
+.hide{ position: absolute; left: -200em; top: -9999px; visibility:visible; } 
+.ltx_p{font-family:sans-serif, Open, Liberation;}
+.ltx_para{padding-left: 0px;}
+.ltx_title_section{ font-size:125%; font-weight:500; margin-bottom:.1em; }
+.ltx_tag_section {font-weight:500;}
+div.lpict{ float:left; margin: 5px 25px 5px 0px; } 
+div.rpict{ float:right; margin: 5px 0px 5px 25px; } 
+div.minipage{width:45%;}
+h4.subsectionHead{display:inline;margin:0px 15px 0px 0px;}
+A:link{color:#000080}
+A:visited{color:#003300}
+A:hover{color:#006400}
+div.proof{background-color:#e0ffff; padding-left:5px;padding-right:5px;}
+
+.armj_inline_graph{vertical-align: -10px;}
+
+
+/* end css.sty */
